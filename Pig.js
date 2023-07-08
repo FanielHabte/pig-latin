@@ -1,12 +1,11 @@
 // - if a word begins with a vowel, the letter remains in place and 'way' is appended to the end of the word:
 // apple --> appleway
 
-// - if a word begins with one consonant only , that letter is moved to the end and 'ay' is appended:
+// - if a word begins with one consonant, that letter is moved to the end and 'ay' is appended:
 // pig latin --> igpay atinlay
 
-// - if a word begins with two consonants only , both letters are moved to the end and 'ay' is appended:
+// - if a word begins with two consonants, both letters are moved to the end and 'ay' is appended:
 // grade --> adegray
-
 var word = prompt("Enter text");
 
 
